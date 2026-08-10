@@ -1,1 +1,31 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment and secrets
+.env
+.env.local
+PRIVATE_KEY
+*.key
+*.secret
+*.pem
+
+# Build / runtime
+dist/
+build/
+coverage/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local reports and sensitive outputs
+last_report.json
+*.report.json
+
+# Dependency directories
+.pnpm-store/
 
