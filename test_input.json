@@ -1,1 +1,14 @@
+// test_local.js
+// Teste local do Robô Financeiro Comportamental
+
+const { rodarLocal } = require("./index");
+
+console.log("=== Teste Local do Robô Financeiro Comportamental ===");
+
+try {
+  rodarLocal();
+  console.log("=== Execução concluída com sucesso ===");
+} catch (err) {
+  console.error("Erro durante o teste local:", err);
+}
 
